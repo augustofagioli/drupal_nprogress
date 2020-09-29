@@ -1,5 +1,5 @@
 <?php
-namespace Drupal\NProgress\Form;
+namespace Drupal\nprogress\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;

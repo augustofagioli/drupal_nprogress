@@ -2,6 +2,6 @@ nprogress.config:
   path: '/admin/config/nprogress/settings'
   defaults:
     _form: '\Drupal\nprogress\Form\NProgressSettingsForm'
-    _title: 'Nprogress Configuration'
+    _title: 'NProgress Configuration'
   requirements:
     _permission: 'administer site configuration'
