@@ -1,0 +1,8 @@
+name: NProgress
+type: module
+description: 'A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: JavaScript
+configure: nprogress.settings
+

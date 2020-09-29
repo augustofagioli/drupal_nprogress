@@ -1,0 +1,7 @@
+nprogress:
+  js:
+    js/nprogress.js: { minified: false }
+  css:
+    theme:
+      css/style.css: {}
+      css/nprogress.css: {}

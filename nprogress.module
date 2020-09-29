@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Loads PACE js.
+ */
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Cmf\Component\Routing\RouteObjectInterface;
+
+/**
+ * Implements template_preprocess_html().
+ */
+function nprogress_preprocess_html(&$variables) {
+  $config = \Drupal::config('nprogress.settings');
+  if ($config->get('status') == 1 )  {
+    nprogress_load($variables);
+  }
+}
+
+function nprogress_load(&$variables) {
+    $variables['#attached']['library'][] = 'nprogress/nprogress';
+}
