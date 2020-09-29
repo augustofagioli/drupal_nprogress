@@ -1,6 +1,8 @@
 NPROGRESS for Drupal
 NPROGRESS (1) is  nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening
 
+This project is meant as temporary  developement module is for Drupal 8.x, waiting for the appropriate release at https://www.drupal.org/project/nprogress
+
 
 
 Log:
